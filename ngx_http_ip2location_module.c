@@ -6,7 +6,7 @@
 #include <ngx_core.h>
 #include <ngx_http.h>
 
-#include "/Users/sergevelikanov/sources/ip2location/IP2Location.h"
+#include <IP2Location.h>
 
 /* Directive handlers */
 static char *ngx_http_ip2location_database(ngx_conf_t *cf, ngx_command_t *cmd, void *conf);
